@@ -9,3 +9,13 @@ function ValidPas() {
         alert('Welcome');
     else alert('Go Fuck yourself!!');
 }
+
+
+
+
+
+
+setTimeout(function()
+{
+    document.getElementById("r3").checked = true;
+}, 10000);
