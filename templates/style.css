@@ -504,6 +504,22 @@ textarea.input-at {
   color: black;
 }
 
+.fotter_authorization{
+
+}
+
+.forgot_pas{
+    margin-left: 15px;
+}
+
+.registration_page{
+    float:right;
+    margin-right: 25px;
 
 
+}
+
+.forgot_pas, .registration_page{
+    display: inline;
+}
 
