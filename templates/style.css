@@ -472,6 +472,8 @@ textarea.input-at {
 
     padding-left: 10px;
     width: 90%;
+
+    border-bottom: 1px solid BLACK;
 }
 
 #input_email{
@@ -501,6 +503,7 @@ textarea.input-at {
   background-color: #ddd;
   color: black;
 }
+
 
 
 
