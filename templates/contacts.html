@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+    <html lang="ru">
+        <head>
+            <title>do Buli Mon chef</title>
+            <link rel="stylesheet" href="style.css">
+        </head>
+        <body>
+            <header>
+                <div class="toper">Вход</div>
+                <div class="botter">do Mon
+                </div>
+
+                <div class="menu" align="center">
+                    <ul>
+                        <li><a href="main.html">Главная</a></li>
+                        <li><a href="">Товары</a>
+                            <ul class="tov_ul">
+                                <li><a href="">1</a></li>
+                                <li><a href="">2</a></li>
+                                <li><a href="">3</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="test.html">Почему мы</a></li>
+                        <li><a href="test.html">Контакты</a></li>
+                    </ul>
+                </div>
+
+            </header>
+
+            <main>
+
+                <div class="page_contacts">
+                <div class="breadcrumb">
+                    <a href="main.html">Главная</a> »
+                    <a href="contacts.html">Связаться с нами</a>
+                </div>
+                <h1>Связаться с нами</h1>
+                <form action="" method="post" enctype="multipart/form-data">
+                    <h2>Наше местонахождение</h2>
+                    <div class="box_contact_info">
+                        <div class="content">
+                            <div class="box_contact_info_left">
+                                <b>Адрес:</b>
+                                <br>do_mon.ru<br>г.Казань, ул. Баки Урманче
+                            </div>
+                            <div class="box_contact_info_right">
+                                <b>Телефон:</b><br>
+                                +7 (980) 4321-567<br><br>
+                            </div>
+                        </div>
+                    </div>
+                    <h2>Написать нам</h2>
+
+                    <div class="forma">
+                        <div class="content_mail">
+                            <div class="content_input w50" data-validate="Обязательное поле">
+                                <input class="input-at" type="text" name="name-at" placeholder="Ваше имя" />
+                                <span class="focus-input-at"></span>
+                            </div>
+
+                            <div class="content_input w50" data-validate="Обязательное поле">
+                                <input class="input-at" type="text" name="email-at" placeholder="Ваш телефон или email" />
+                                <span class="focus-input-at"></span>
+                            </div>
+
+                            <div class="content_input" data-validate="Обязательное поле">
+                                <textarea class="input-at" name="message-at" placeholder="Ваше сообщение"></textarea>
+                                <span class="focus-input-at"></span>
+                            </div>
+
+                            <div class="content_add_file">
+                              <input type="file" name="files[]">
+                            </div>
+
+
+                            <div class="send_btn">
+                                <input checked="checked" class="input-at" id="checkbox-at" type="checkbox" name="checkbox-at" onchange="document.getElementById('submit-at').disabled = !this.checked;" />
+
+                                <label for="checkbox-at">
+                                    Настоящим подтверждаю, что я ознакомлен и согласен с <a href="#rules">пользовательским соглашением</a>
+                                </label>
+
+                                <input type="hidden" name="subject-at" value="Тема формы">
+
+                                <button id="submit-at" class="form-at-btn">Отправить</button>
+                            </div>
+                        </div>
+                        <div class="result-at"></div>
+                    </div>
+
+                </form>
+            </div>
+
+                <br>
+
+            </main>
+
+            <footer>
+                © Акбулатов Марсель
+                <br>По вопросам рекламы: akbulatov03@mail.ru
+            </footer>
+        </body>
+    </html>
