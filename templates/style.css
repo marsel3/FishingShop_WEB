@@ -4,13 +4,14 @@ header {
         }
 
 main{
-    background: #d9b08c;
+    background: #FFCB9A;
 }
 
 footer{
-    text-align:left;
+    text-align:center;
     background: #BDBDBD; /* Цвет фона */
     width: 100%; /* Ширина слоя */
+    padding: 10px;
     }
 
 .toper {
@@ -33,6 +34,200 @@ footer{
 
 .cat-box, .adv {
     }
+
+/*__________________________________НАЧАЛО ОПИСАНИЯ ШАПКА ШАПКИ_______________*/
+.toper {
+    color: grey;
+}
+
+.go_to_authorization, .go_to_registration{
+    text-decoration: none;
+    color: white;
+}
+
+.go_to_authorization:hover, .go_to_registration:hover{
+    text-decoration: none;
+    color: #42AAFF;
+}
+
+.botter_text, .botter_adres{
+    align-items : center;
+}
+
+.botter_adres {
+    font-size: 20px;
+}
+
+.botter_text {
+    font-size: 40px;
+}
+
+#botter {
+    max-width: 1260px;
+    margin: 0 auto;
+
+}
+
+.botter_search {
+    align-items : flex-end;
+}
+
+.botter div {
+    display: flex;
+    padding-right: 25px;
+}
+
+
+/*__________________________________НАЧАЛО ОПИСАНИЯ ПОИСКА ПО САЙТ_______________*/
+
+.search_box {
+    align-items : center;
+
+    background: #666666;
+    height: 40px;
+    border-radius: 40px;
+    padding: 10px;
+    }
+
+.search_box:hover > .search-txt {
+    width: 240px;
+    padding: 0 6px;
+}
+
+.search_box:hover > .search-btn {
+    background-image: url("images/loop3.png");
+    background-size: 36px 28px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.search-btn {
+    background-image: url("images/loop1.png");
+    background-size: 35px 35px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+
+    align-items: center;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+
+.search-txt {
+    border: none;
+    background: none;
+    outline: none;
+    padding: 0;
+
+    color: white;
+    width: 0px;
+    font-size: 16px;
+
+    font-weight: bold;
+    transition: 0.4s;
+}
+
+
+
+/*__________________________________НАЧАЛО ОПИСАНИЯ ШАПКИ_____________________*/
+.menu {
+    background: #D1E8E2;
+    padding: 1px 0px;
+}
+
+.menu > ul > li > a{
+    margin-left: 0;
+    font-size: 40px;
+    padding: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+.menu > ul > li > a:hover {
+    color: white;
+    background: #72B7B7;
+    /*#376e6f*/
+    border-radius: 15px; /* Радиус скругления */
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2), 0 10px 18px rgba(0,0,0,0.3);
+}
+
+
+
+.menu > ul {
+    list-style:none;
+    marin: 0;
+}
+
+.menu > ul > li {
+    display: inline;
+}
+
+
+.tov_ul {
+    display: none;
+ }
+
+
+#tov_button:hover {
+
+}
+
+
+/*__________________________________НАЧАЛО ОПИСАНИЯ БОКСОВ КАТЕГОРИИ_______________*/
+.box_heading {
+    background: #FFCB9A;
+    margin: 80px auto 70px auto;
+    text-align: center;
+    font-size: 31px;
+    font-weight: 700;
+    color: #000;
+    text-transform: uppercase;
+}
+
+.category_card {
+    background-color: #fff;
+    width: 200px;
+    height: 300px;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 10px 10px 40px #434040;
+
+    margin: 10px 25px;
+    margin-top: 10px;
+
+    display: inline-block;
+}
+.category_card:hover {
+    border: 5px dashed black;
+}
+
+.category_image {
+    border-radius: 11px;
+    width: 200px;
+    height: 250px;
+}
+
+.card_title {
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+}
+
+.box_content {
+    text-align: center;
+    max-width: 1260px;
+    margin: 0 auto;
+}
+
 
 /*__________________________________НАЧАЛО ОПИСАНИЯ СЛАЙДЕРА_____________________*/
 .slideshow{ /*положение слайдера*/
@@ -123,134 +318,6 @@ article img{ /*размер изображений слайдера*/
 }
 
 
-/*__________________________________НАЧАЛО ОПИСАНИЯ ПОИСКА ПО САЙТ_______________*/
-
-.search_form {
-    width: auto;
-    float: right;
-    margin-right: 30px;
-
-}
-.search_input {
-    width: 250px;
-    height: 42px;
-    padding-left: 15px;
-    border-radius: 42px;
-    border: 2px solid #324b4e;
-    background: #F9F0DA;
-    outline: none;
-    position: relative;
-    transition: .3s linear;
-}
-.search_input:focus {
-    width: 300px;
-}
-.search_button {
-  width: 42px;
-  height: 42px;
-  background: none;
-  border: none;
-  position: absolute;
-  right: 0;
-}
-.search_button:before{
-  content: "\f002";
-  font-family: FontAwesome;
-  color: #324b4e;
-}
-
-
-/*__________________________________НАЧАЛО ОПИСАНИЯ ШАПКИ_____________________*/
-.menu {
-    background: #D1E8E2;
-    padding: 1px 0px;
-}
-
-.menu > ul > li > a{
-    margin-left: 0;
-    font-size: 40px;
-    padding: 20px;
-    color: black;
-    text-decoration: none;
-}
-
-.menu > ul > li > a:hover {
-    color: white;
-
-    background: #376e6f;
-    border-radius: 15px; /* Радиус скругления */
-    box-shadow: 0 4px 12px rgba(0,0,0,0.2), 0 10px 18px rgba(0,0,0,0.3);
-}
-
-.menu > ul {
-    list-style:none;
-    marin: 0;
-}
-
-.menu > ul > li {
-    display: inline;
-}
-
-
-.tov_ul {
-    display: none;
- }
-
-
-#tov_button:hover {
-
-}
-
-
-/*__________________________________НАЧАЛО ОПИСАНИЯ БОКСОВ КАТЕГОРИИ_______________*/
-.box_heading {
-    background: #d9b08c;
-    margin: 80px auto 70px auto;
-    text-align: center;
-    font-size: 31px;
-    font-weight: 700;
-    color: #000;
-    text-transform: uppercase;
-}
-
-.category_card {
-    background-color: #fff;
-    width: 200px;
-    height: 300px;
-    border-radius: 20px;
-    padding: 20px;
-    box-shadow: 10px 10px 40px #434040;
-
-    margin: 10px 25px;
-    margin-top: 10px;
-
-    display: inline-block;
-}
-.category_card:hover {
-    border: 5px dashed black;
-}
-
-.category_image {
-    border-radius: 11px;
-    width: 200px;
-    height: 250px;
-}
-
-.card_title {
-    margin-top: 20px;
-    font-size: 20px;
-    text-align: center;
-    text-transform: uppercase;
-    color: black;
-}
-
-.box_content {
-    text-align: center;
-    max-width: 1260px;
-    margin: 0 auto;
-}
-
-
 /*__________________________________НАЧАЛО ОПИСАНИЯ ФОРМЫ CВЯЗИ_______________*/
 .page_contacts {
     text-align: left;
@@ -259,8 +326,9 @@ article img{ /*размер изображений слайдера*/
 }
 
 .box_contact_info{
-    border: 2px solid black;
+    border: 1px solid #D9B08C;
     overflow: auto;
+    padding: 5px;
 }
 
 .box_contact_info_left {
@@ -274,6 +342,10 @@ article img{ /*размер изображений слайдера*/
 
 .breadcrumb a {
     text-decoration: none;
+}
+
+.forma {
+    padding-bottom: 50px;
 }
 
 .content_mail {
@@ -419,6 +491,7 @@ textarea.input-at {
     border: 2px solid #337AB7;
 }
 
+
 /*__________________________________НАЧАЛО ОПИСАНИЯ АВТОРИЗАЦИИ_______________*/
 
 .authorization {
@@ -523,3 +596,92 @@ textarea.input-at {
     display: inline;
 }
 
+/*__________________________________НАЧАЛО ОПИСАНИЯ РЕГИСТРАЦИИ___________________*/
+
+.registration {
+    width: 455px;
+    margin: 0px auto;
+    padding: 20px;
+
+}
+
+
+.head_registration {
+    background: #7b72d8;
+    border-bottom: 1px solid #2d2f32;
+    padding: 12px 0;
+    text-align: center;
+
+    border-radius: 10px 10px 0 0;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2), 0 10px 18px rgba(0,0,0,0.3);
+
+}
+
+.body_registration {
+
+    background: #7b72d8;
+    border-bottom: 1px solid #2d2f32;
+    border-top: 1px solid #2d2f32;
+
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2), 0 10px 18px rgba(0,0,0,0.3);
+}
+
+.fotter_registration {
+    background: #7b72d8;
+    border-bottom: 1px solid #2d2f32;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2), 0 10px 18px rgba(0,0,0,0.3);
+    padding: 15px 0;
+}
+
+.input_registration_pas{
+        margin-top: 15px;
+}
+
+.input_registration input{
+    background: #daf4fe;
+    border: none;
+    color: #25262a;
+    display: block;
+    margin: 0 20px;
+    outline: none;
+    padding: 15px 0;
+
+    padding-left: 10px;
+    width: 90%;
+
+    border-bottom: 1px solid BLACK;
+}
+
+#input_name_reg{
+    border-radius: 10px 10px 0 0;
+}
+
+#input_password_reg_2{
+    border-radius: 0 0 10px 10px;
+}
+
+.login-button_reg {
+    background: #00aeef;
+    border-radius: 10px;
+    border: none;
+    color: #25262a;
+    display: block;
+    margin: 0 20px;
+    outline: none;
+    padding: 15px 0;
+    width: 90%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+
+.login-button_reg:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+.enter_authorization{
+    text-align:center;
+}
