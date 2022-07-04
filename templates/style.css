@@ -82,8 +82,7 @@ footer{
 
 .search_box {
     align-items : center;
-
-    background: #666666;
+    background: #FFE3C7;
     height: 40px;
     border-radius: 40px;
     padding: 10px;
@@ -95,7 +94,7 @@ footer{
 }
 
 .search_box:hover > .search-btn {
-    background-image: url("images/loop3.png");
+    background-image: url("images/loop4.png");
     background-size: 36px 28px;
     background-repeat: no-repeat;
     background-position: center;
@@ -103,7 +102,7 @@ footer{
 }
 
 .search-btn {
-    background-image: url("images/loop1.png");
+    background-image: url("images/loop2.png");
     background-size: 35px 35px;
     background-repeat: no-repeat;
     background-position: center;
@@ -126,7 +125,7 @@ footer{
     outline: none;
     padding: 0;
 
-    color: white;
+    color: black;
     width: 0px;
     font-size: 16px;
 
@@ -503,11 +502,11 @@ textarea.input-at {
 
 
 .head_authorization {
-    background: #7b72d8;
+    background: #7CC2C5;
     border-bottom: 1px solid #2d2f32;
-    padding: 12px 0;
+    padding: 1px 0;
     text-align: center;
-
+    font-size: 35px;
     border-radius: 10px 10px 0 0;
     box-shadow: 0 4px 12px rgba(0,0,0,0.2), 0 10px 18px rgba(0,0,0,0.3);
 
@@ -515,7 +514,7 @@ textarea.input-at {
 
 .body_authorization {
 
-    background: #7b72d8;
+    background: #7CC2C5;
     border-bottom: 1px solid #2d2f32;
     border-top: 1px solid #2d2f32;
 
@@ -523,7 +522,7 @@ textarea.input-at {
 }
 
 .fotter_authorization {
-    background: #7b72d8;
+    background: #7CC2C5;
     border-bottom: 1px solid #2d2f32;
     border-radius: 0 0 10px 10px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.2), 0 10px 18px rgba(0,0,0,0.3);
@@ -558,7 +557,7 @@ textarea.input-at {
 }
 
 .login-button {
-    background: #00aeef;
+    background: #4AADD3;
     border-radius: 10px;
     border: none;
     color: #25262a;
@@ -577,9 +576,6 @@ textarea.input-at {
   color: black;
 }
 
-.fotter_authorization{
-
-}
 
 .forgot_pas{
     margin-left: 15px;
@@ -607,10 +603,11 @@ textarea.input-at {
 
 
 .head_registration {
-    background: #7b72d8;
+    background: #7CC2C5;
     border-bottom: 1px solid #2d2f32;
-    padding: 12px 0;
+    padding: 1px 0;
     text-align: center;
+    font-size: 35px;
 
     border-radius: 10px 10px 0 0;
     box-shadow: 0 4px 12px rgba(0,0,0,0.2), 0 10px 18px rgba(0,0,0,0.3);
@@ -619,7 +616,7 @@ textarea.input-at {
 
 .body_registration {
 
-    background: #7b72d8;
+    background: #7CC2C5;
     border-bottom: 1px solid #2d2f32;
     border-top: 1px solid #2d2f32;
 
@@ -627,7 +624,7 @@ textarea.input-at {
 }
 
 .fotter_registration {
-    background: #7b72d8;
+    background: #7CC2C5;
     border-bottom: 1px solid #2d2f32;
     border-radius: 0 0 10px 10px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.2), 0 10px 18px rgba(0,0,0,0.3);
