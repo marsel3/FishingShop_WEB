@@ -451,7 +451,7 @@ textarea.input-at {
     resize: none;
 }
 
-.focus-input-at {
+.focus-input-at { /*синяя обводка на выбраных*/
     position: absolute;
     display: block;
     width: calc(100% + 2px);
