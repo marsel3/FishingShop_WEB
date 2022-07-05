@@ -1,6 +1,4 @@
 
-
-
 function ValidPas() {
     let login = document.getElementById('input_email').value;
     let password = document.getElementById('input_password').value;
@@ -32,10 +30,7 @@ function Registration() {
 }
 
 
-
-
-setInterval(function()
-{
+setInterval(function(){
     var r1 = document.getElementById('r1');
     var r2 = document.getElementById('r2');
     var r3 = document.getElementById('r3');
@@ -70,3 +65,13 @@ function SendForm() {
             window.location.href = 'main.html';
           }
 }
+
+
+
+
+
+
+
+
+
+
